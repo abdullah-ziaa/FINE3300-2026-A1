@@ -1,0 +1,2 @@
+# FINE3300-2026-A1
+FINE3300, Fall 2026, Assignment 1
