@@ -25,7 +25,7 @@ Must specify a prompt to a LLM model of your choice to complete Part 1 of the as
 
 https://github.com/abdullah-ziaa/FINE3300-2026-A1.git
 
-##### Program Output for $100,000 USD to CAD, and vice versa.
+#### Program Output for $100,000 USD to CAD, and vice versa.
 
 USD to CAD Output
 > $100000.0 USD is equal to $139780.0 CAD
@@ -33,7 +33,7 @@ USD to CAD Output
 CAD to USD Output
 > $100000.0 CAD is equal to $71540.99 USD
 
-##### LLM Model & Prompt
+#### LLM Model & Prompt
 
 LLM Model
 > Claude Sonnet 5.5, Effort Level = Medium
