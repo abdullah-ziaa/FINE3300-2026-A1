@@ -37,4 +37,4 @@ result = rates.convert(amount, from_currency, to_currency)
 result = round(result, 2)
 
 # Print the result  of the conversion in an easy to understand format for the user.
-print("$" + str(amount) + " " + from_currency + " is equal to $" + str(result) + " " + to_currency)
+print("$" + str(amount) + " " + from_currency + " is equal to $" + str(result) + " " + to_currency + ".")
