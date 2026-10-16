@@ -38,10 +38,13 @@ CAD to USD Output
 LLM
 > Claude Sonnet 5.5, Effort Level = Medium
 
-Prompt
+Prompt 1
 > "I need you to design an exchange rate calculator in python. Design a class (called Exchange Rates) that will read an exchange rate (USD to CAD, or vice versa only, though others may exist within the file) from a provided data file containing annual exchange rates reported by the Bank of Canada in csv format. Then write a method/function (called convert) that will take an input for the amount and 2 separate currency entries (USD or CAD), and converts from one currency to another using the exchange rate read from the file. Prompt the user to specify the amount, the 'from' & 'to' currency i.e. USD or CAD.  Assume users will provide legitimate input values so no validation checks will be performed on the input values and format the output so that it is rounded to the nearest penny and incorporates dollar signs and currency identifiers."
 
 **NOTE:** In addition to the prompt, I uploaded the given Bank of Canada Exchange Rate File provided in the assignment to assist with implementation.
+
+Prompt 2
+> Highlight all typing errors: (Includes the entire README file text)
 
 ### Comparison
 
