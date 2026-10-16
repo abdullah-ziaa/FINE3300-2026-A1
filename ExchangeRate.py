@@ -1,19 +1,3 @@
-# exchangeRates = "BankOfCanadaExchangeRate.2026.csv"
-# f = open(exchangeRates, "r")
-# data = f.read()
-
-# csv_data = data.splitlines()
-
-# currency_list = csv_data[0].split(',')
-# latest_exchange_rate = csv_data[-1].split(',')
-
-# usdcad_index = currency_list.index("FXAUSDCAD")
-
-# usd_to_cad = float(latest_exchange_rate[usdcad_index])
-
-# cad_to_usd = 1.0 / usd_to_cad
-
-
 class ExchangeRates:
     def __init__(self, exchange_rate_file):
 
