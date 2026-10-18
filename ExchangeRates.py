@@ -29,7 +29,7 @@ class ExchangeRates:
         elif from_currency == "CAD" and to_currency == "USD":
             return amount * self.cad_to_usd
 
-# Create an instance of the ExchangeRates class and use it to gather the appropriate converstion rates based on the given CSV file
+# Create an instance of the ExchangeRates class and use it to gather the appropriate conversion rates based on the given CSV file
 rates = ExchangeRates("BankOfCanadaExchangeRate.2026.csv")
 
 # Prompt the user for an amount, from_currency, and to_currency to convert between USD and CAD in accordance with the desired outcome
@@ -37,7 +37,7 @@ amount = float(input("Enter the amount to convert: "))
 from_currency = input("Enter the currency to convert from (USD or CAD): ")
 to_currency = input("Enter the currency to convert to (USD or CAD): ")
 
-# Calculcate the conversion result using the convert function in the ExchangeRates class, ensuring to round to two decimal places
+# Calculate the conversion result using the convert function in the ExchangeRates class, ensuring to round to two decimal places
 result = rates.convert(amount, from_currency, to_currency)
 result = round(result, 2)
 
