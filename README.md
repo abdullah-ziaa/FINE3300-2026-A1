@@ -44,7 +44,7 @@ Prompt 1
 **NOTE:** In addition to the prompt, I uploaded the given Bank of Canada Exchange Rate File provided in the assignment to assist with implementation.
 
 Prompt 2
-> Highlight all typing errors: (Includes the entire README file text)
+> "Highlight all typing errors: (Includes the entire README file text)"
 
 ### Comparison
 
